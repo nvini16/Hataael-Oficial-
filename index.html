@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang"pt-BR">
+<html lang="pt-BR">
   <head>
      <meta name="viewport" content="width=device-width, width-initial-scale=1.0">
     <title>Meu Portifólio gentee</title>
@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="header">
-      <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Cock-from-koovery.jpg/250px-Cock-from-koovery.jpg" rel="">
+      <img class="logo" src="my.photo.webp" rel="">
 
       <nav class="header-nav">
         <a class="header-a" href="">Git Hub</a>
@@ -22,9 +22,9 @@
       <section class="section">
         <div class="div1">
         <h1 class="h1">Nathanael</h1>
-        <h2 class="h2">Bem-vindos ao meu Page Load!</h2>
+        <h2 id="saudacao" class="h2">Bem-vindos ao meu Page Load!</h2>
         
-          <button class="button">button</button>
+          <button class="button" onclick="mudarSaudacao()">Mudar tetxo</button>
         </div>
       </section>
 
@@ -63,7 +63,11 @@
     </footer>
     
     <script>
-      
+      function mudarSaudacao() {
+        let mensagem = "Espero que gostem!"
+        document.getElementById("saudacao")
+.textContent = "Aqui você ira encontrar projetos simples feitos por mim memso. "  + mensagem    
+}
     </script>
   </body>
 </html>
