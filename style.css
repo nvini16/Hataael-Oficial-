@@ -1,0 +1,180 @@
+:root {
+  --button-background: #0a0a0a;
+  --button-color: #39ff14;
+  --button-border: #39ff14;
+  --button-hover: #39ff14;
+  --button-hover-color: #000;
+  --button-shadow: 0 0 10px #39ff14;
+  --button-shadow-hover:  
+    0 0 20px #39ff14,
+    0 0 40px #39ff14,
+    0 0 60px #39ff14;
+}
+
+* {
+  background-color: black;
+  font-family: sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+
+.main {
+  border-top: 0.4px solid greenyellow;
+  margin-bottom: 48px;
+}
+
+footer {
+  border-top: 0.4px solid greenyellow;
+}
+a {
+  text-decoration: none;
+  color: green;
+}
+
+a:hover {
+  color: greenyellow;
+}
+
+p {
+  padding: 30px;
+  color: lightgreen;
+  font-size: 20px;
+  
+}
+
+h2, h3 {
+  color: limegreen;
+}
+
+img {
+  border: 2px 
+  
+}
+
+.img2 {
+  padding: 50px;
+  text-align: center;
+}
+
+.img22 {
+  width: 250px;
+  height: 250px;
+  border-radius: 100px  100px 100px 0;
+}
+
+img:hover {
+  filter: opacity(50%);
+}
+
+.logo {
+  border-radius: 0 50px 50px 50px;
+  height: 100px;
+  
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header-a {
+  font-size: 15px;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.h1 {
+  font-family: ;
+  font-weight: 400;
+  font-size: 64px;
+  color: whitesmoke;
+  padding-top: 20px;
+}
+
+.h2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.button {
+  
+  width: 80px;
+  height: 64px;
+  border-radius: 20px;
+  border: none;
+  transition: 0.3s;
+  box-shadow: var(--button-shadow);
+}
+
+.button:hover {
+  box-shadow: var(--button-shadow-hover);
+}
+
+button {
+  background: var(--button-background);
+  color: var(--button-color);
+  border: 1px solid var(--button-border);
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--button-hover);
+  color: var(--button-hover-color);
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.h3 {
+  border-top: 0.4px solid greenyellow;
+  padding-top: 48px;
+  margin-bottom: 16px;
+  font-size:30px;
+  text-align: center;
+  
+}
+
+.projetos {
+  float: left;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+.p {
+  font-size: 25px;
+  margin: 10px;
+  }
